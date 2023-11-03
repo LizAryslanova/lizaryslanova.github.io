@@ -87,6 +87,7 @@ h3 {
 }
 
 
+
 .link-box {
     box-sizing: border-box;
     display: flex;
@@ -122,6 +123,33 @@ h3 {
     box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1);;
 }
 
+
+#aboutme {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+
+    text-align: left;
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+    margin: 0.4em auto;
+
+    color: #edd3c4;
+
+    font-weight: 200;
+    font-size: 1.1em;
+
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+
+    min-width: 7em;
+    max-width: 33em;
+
+    margin-top: 0.4em;
+    margin-bottom: 2em;
+}
 
 
 #photo {
