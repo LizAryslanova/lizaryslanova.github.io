@@ -94,32 +94,20 @@ h3 {
     justify-content: center;
     flex-flow: column wrap;
     align-items: center;
-
     background-color: #2D3238;
-
     flex: 1;
-
     margin: 0.4em auto;
-
     margin-top: 0.8em;
     margin-bottom: 0.8em;
-
     text-align: center;
     font-size: 1.2em;
-
     font-weight: 400;
-
     padding: 1.2em 3.4em 1.2em 3.4em;
-
-    box-sizing: border-box;
-
     border: solid 2px #2D3238;
     border-radius: 0.4em;
-
     height: 2.2em;
     min-width: 15em;
     max-width: 30em;
-
     box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1);;
 }
 
@@ -238,50 +226,79 @@ h3 {
 
 /* Stylink links */
 
+
+
+
+
+
+
 a {
     display: inline-block;
 }
-
-
 a:link {
     color: #FFEEF2;
     text-decoration: none;
 }
-
 a:visited {
     color: #FFEEF2;
     text-decoration: none;
 }
-
 a:hover {
     color: #FFEEF2;
     text-decoration: none;
     font-weight: 400;
-
     letter-spacing: 0.01em;
-
     border: solid 2px #292929;
     box-shadow: -0.25em 0.25em 0.25em 0.15em rgba(41,41,41,1);;
-
-
 }
-
 a:active {
     color: #FFEEF2;
     text-decoration: none;
     font-weight: 400;
-
     border: solid 2px #292929;
     box-shadow: -0.25em 0.25em 0.25em 0 rgba(41,41,41,1);;
-
     position: relative;
     top: 1px;
 }
 
 
 /* End of:  Stylink links */
-
 /* ============================================================= */
+
+
+a.just-link {
+    display: inline;
+}
+a.just-link:link {
+    color: #edd3c4;
+    text-decoration: underline;
+}
+a.just-link:visited {
+    color: #edd3c4;
+    text-decoration: underline;
+}
+a.just-link:hover {
+    color: #edd3c4;
+    text-decoration: underline;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    border: none;
+    box-shadow: none;
+}
+a.just-link:active {
+    color: #edd3c4;
+    text-decoration: underline;
+    font-weight: 400;
+    position: relative;
+    top: 1px;
+    border: none;
+    box-shadow: none;
+}
+
+
+
+
+
 
 
 
